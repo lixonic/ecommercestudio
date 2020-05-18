@@ -2,7 +2,6 @@
 layout: post
 title:  "Brooklyn theme - Show full product info on Homepage Section"
 date:   2020-05-13 21:26:35 +0530
-image: /images/posts/brooklyn-theme-ft-product.png
 categories: Brooklyn theme
 ---
 

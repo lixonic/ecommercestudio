@@ -20,15 +20,14 @@ layout: default
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
+      {%else%}
+        <h2 class="post-list-heading">Recent Posts</h2>
     {%- endif -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
       <li>
-        <div class="one-half featured-image">
-          <img src={{post.image}}>
-        </div>
-       <div class="one-half">
+       
           <span class="post-meta">{{ post.date | date: date_format }}</span>
           <h3>
             <a class="post-link" href="{{ post.url | relative_url }}">
@@ -36,7 +35,7 @@ layout: default
             
             </a>
           </h3>
-       </div>
+       
        
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
