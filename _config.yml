@@ -3,7 +3,8 @@ author:
   name: Lixon Louis
   email: lixon@ecommercestudio.in
 description: > # this means to ignore newlines until "show_excerpts:"
-  eCommerceStudio offers custom theme and app development services to shopify stores. We love working with people to get the best out of their online store,specializing in strategy, design and development within Shopify.
+  eCommerceStudio offers custom theme and app development services to shopify stores.
+  
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
