@@ -13,6 +13,17 @@
     border: 1px solid #eee;
     border-radius: 4px;
   }
+  .post-list > li{
+    overflow: hidden;
+  }
+  .avatar{
+    border-radius: 50%;
+    width: 200px;
+  }
+  .text-center{
+    text-align: center;
+  }
+  
   .page-content{
     padding-top: 0;
   }
@@ -22,12 +33,17 @@
     margin-right: 2%;
     vertical-align: middle;
   }
+  .post-icon{
+    float: left;
+    margin-right: 25px;
+    width: 75px;
+  }
   .index-banner{
     background-color: #266590;
     padding: 20px 0;
     text-align: center;
     margin-bottom: 30px;
-    
+
     a.btn{
       display: inline-block;
       background: #88C102;

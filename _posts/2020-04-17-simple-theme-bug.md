@@ -2,7 +2,7 @@
 layout: post
 title:  "Simple theme bug fix - product image zoom-in"
 date:   2020-04-17 21:26:35 +0530
-categories: Simple theme
+categories: Simple-theme
 ---
 
 This bug only happens when the zoom type is set to be `zoom-in` (the default is lightbox) for the product pages on mobile. As you change the landscape/portrait mode, the zoom functionality will throw an error.

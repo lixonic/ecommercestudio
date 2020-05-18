@@ -8,12 +8,12 @@
     {%- include header.html -%}
 
     <main class="page-content" aria-label="Content">
-       
+      {% if page.url != '/404.html'%}
       <div class="index-banner">
         <div class="wrapper">
           
           <div class="one-half">
-            <h1>Reliable Shopify  developement Services.</h1>
+            <h1>Reliable Shopify <br/>  developement Services.</h1>
             <a class="btn" href="mailto:lixon@ecommercestudio.in">lixon@ecommercestudio.in</a>
           </div>
           <div class="one-half">
@@ -21,7 +21,7 @@
           </div>
         </div>
       </div>
-      
+      {% endif%}
       <div class="wrapper">
          {{ content }}
       </div>
