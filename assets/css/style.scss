@@ -10,10 +10,33 @@
     max-width: 50%;
   }
   .featured-image{
-    
+    border: 1px solid #eee;
+    border-radius: 4px;
+  }
+  .page-content{
+    padding-top: 0;
   }
   .one-half{
     width: 46%;
-    display:inline-block;
+    display:inline-table;
     margin-right: 2%;
+    vertical-align: middle;
+  }
+  .index-banner{
+    background-color: #266590;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 30px;
+    
+    a.btn{
+      display: inline-block;
+      background: #88C102;
+      padding: 8px 16px;
+      border-radius: 3px;
+      color: #fff
+    }
+    h1{
+      color: #fff;
+      text-transform: capitalize;
+     }
   }
