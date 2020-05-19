@@ -2,6 +2,9 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {%- include head.html -%}
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css
+  "/>
 
   <body>
 
@@ -14,7 +17,13 @@
           
           <div class="one-half">
             <h1>Reliable Shopify <br/>  developement Services.</h1>
-            <a class="btn" href="mailto:lixon@ecommercestudio.in">lixon@ecommercestudio.in</a>
+            {% if page.url == '/portfolio.html'%}
+
+             <a href="/" class="btn">Back to Home</a>
+             {%else%}
+             <a href="/portfolio.html" class="btn">View Portfolio</a>
+
+            {% endif%}
           </div>
           <div class="one-half">
             <img src="/images/general/index-banner.png" width="300">
@@ -26,9 +35,23 @@
          {{ content }}
       </div>
     </main>
-
+    {% if page.url == '/portfolio.html'%}
+      {%- include testimonials.html -%}
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+        $('.testimonials').slick({
+          infinite: true,
+          dots: true,
+          autoplay: true,
+          autoplaySpeed: 5000
+        });
+      });
+      </script>
+    {% endif%}
     {%- include footer.html -%}
 
   </body>
-
+  
 </html>

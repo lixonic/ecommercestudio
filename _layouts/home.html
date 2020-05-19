@@ -21,7 +21,7 @@ layout: default
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
       {%else%}
-        <h2 class="post-list-heading">Recent Posts</h2>
+       <p>&nbsp;</p>
     {%- endif -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}

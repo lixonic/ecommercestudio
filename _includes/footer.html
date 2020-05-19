@@ -6,24 +6,16 @@
     <div class="footer-col-wrapper">
       <div class="footer-col">
    
-      {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            Available for hiring. Inbox me
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        </ul>
-      {%- endif %}
+        <img src="/images/general/shopify-partner.png" width="200">
+
       </div>
       <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
+        <p>{{ site.description | escape }} Available for hiring. <a href="mailto:{{ site.author.email }}">{{site.author.email}}</a> </p>
       </div>
     </div>
 
-    <div class="social-links">
-      {%- include social.html -%}
+    <div class="footer-copy">
+      All copyrights belong to their respective owners.Images and text owned by other copyright holders are used here under the guidelines of the Fair Use provisions. © {{ 'now' | date: "%Y" }} ecommercestudio Powered by Jekyll and Github pages
     </div>
 
   </div>
