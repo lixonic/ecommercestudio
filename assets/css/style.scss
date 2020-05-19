@@ -25,20 +25,21 @@
     .wrapper{
       max-width: 50%;
     }
-    .one-half{
-      width: 46%;
-      display:inline-table;
-      margin-right: 2%;
-      vertical-align: middle;
-    }
-    .one-third{
-      width: 33%;
-      display:inline-table;
-      margin-right: 2%;
-      vertical-align: middle;
-    }
+    
   }
  @media (min-width: 800px){
+  .one-half{
+    width: 46%;
+    display:inline-table;
+    margin-right: 2%;
+    vertical-align: middle;
+  }
+  .one-third{
+    width: 33%;
+    display:inline-table;
+    margin-right: 2%;
+    vertical-align: middle;
+  }
   .testimonials{
     margin: 0 0 70px 0 !important;
     .grid__item{
