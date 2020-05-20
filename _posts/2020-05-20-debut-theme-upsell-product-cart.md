@@ -65,7 +65,7 @@ Add some basic styles
 }
 
 ```
-And render it inside `sections/cart-template.liquid`  before the cart form {% raw %} `{% render upsell-product %}`  {% endraw %}
+And render it inside `sections/cart-template.liquid`  before the cart form {% raw %} `{% render 'upsell-product' %}`  {% endraw %}
 
  
 #### Fetch data from scheme settings in `snippet/upsell-product.liquid` . 
