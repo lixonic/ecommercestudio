@@ -68,8 +68,8 @@ Add some basic styles
 And render it inside `sections/cart-template.liquid`  before the cart form {% raw %} `{% render 'upsell-product' %}`  {% endraw %}
 
  
-#### Fetch data from scheme settings in `snippet/upsell-product.liquid` . 
-Assuming that the product only has single variant
+#### Fetch data from scheme settings in `snippet/upsell-product.liquid` 
+Assuming that the product only has a single variant.
 
  {% raw %}
 ``` liquid
@@ -158,7 +158,7 @@ $(document).on('click','#upSell_addTocart', function(){
 ```
 ### Final Fixes
 
-Debut `v16.5.5` has ajax enabled **Remove** link inside Cart items. Delete `data-cart-remove` from the anchor tag in order to reload the cart.
+Debut `v16.5.5` has ajax enabled **Remove** link. Delete `data-cart-remove` from the anchor tag in order to reload the cart.
 
 
 #### A live demo is available here  [https://nichegeek.myshopify.com/cart](https://nichegeek.myshopify.com/cart) 
