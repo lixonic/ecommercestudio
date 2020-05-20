@@ -158,7 +158,7 @@ $(document).on('click','#upSell_addTocart', function(){
 ```
 ### Final Fixes
 
-Debut `v16.5.5` has ajax enabled - **Remove** link inside Cart items. Delete `data-cart-remove` from the anchor tag in order to reload the cart.
+Debut `v16.5.5` has ajax enabled **Remove** link inside Cart items. Delete `data-cart-remove` from the anchor tag in order to reload the cart.
 
 
 #### A live demo is available here  [https://nichegeek.myshopify.com/cart](https://nichegeek.myshopify.com/cart) 
