@@ -5,7 +5,7 @@ date:   2020-05-20 12:26:35 +0530
 categories: Debut-theme
 ---
 
-I'm trying to replicate the free version of this [ Upsell Cart App ](https://apps.shopify.com/in-cart-upsell). The paid plans have better targeting options; like location and quantity of other items inside cart, but if its a single upsell;a custom solution is enough IMHO. For the sake of simplicity i'm using Debut theme `v16.5.5`. So lets jump in
+I'm trying to replicate the free version of this [ Upsell Cart App ](https://apps.shopify.com/in-cart-upsell). The paid plans have better targeting options; like location and quantity of other items inside cart, but if its a single upsell;a custom solution is enough IMHO. I'm using Debut theme `v16.5.5`. 
 
 ### Create a schema type for the upsell product
 
