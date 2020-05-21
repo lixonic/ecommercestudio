@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css
   "/>
 
-  <body>
+  <body class="{{page.title | downcase }}">
 
     {%- include header.html -%}
 
@@ -14,21 +14,9 @@
       {% if page.url != '/404.html'%}
       <div class="index-banner">
         <div class="wrapper">
-          
-          <div class="one-half-grid">
-            <h1>Reliable Shopify <br/>  development Services.</h1>
-            {% if page.url == '/portfolio.html' or page.url != '/'%}
 
-             <a href="/" class="btn">Back to Blog</a>
-             {%else%}
-             <a href="/portfolio.html" class="btn">View Portfolio</a>
+          {%-include hero.html-%}
 
-            {% endif%}
-          </div>
-          <div class="one-half-grid">
- 
-            <img src="/images/general/index-banner.png" width="250">
-          </div>
         </div>
       </div>
       {% endif%}

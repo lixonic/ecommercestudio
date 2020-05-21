@@ -96,6 +96,12 @@
     padding: 20px 0;
     text-align: center;
     margin-bottom: 30px;
+    img{
+      width: 300px;
+    }
+    small{
+      font-size: .48em;
+    }
 
     a.btn{
       display: inline-block;
@@ -115,4 +121,23 @@
     text-align: center;
     margin-top: 50px;
   }
-  
+  body.portfolio{
+    .index-banner{
+      background-color: #1abc9c;
+
+      a{
+        background-color:#266590 ;
+      }
+    }
+    
+  }
+  body.about{
+    .index-banner{
+      background-color: #046e8e;
+
+      a{
+        background-color:#1abc9c ;
+      }
+    }
+    
+  }
