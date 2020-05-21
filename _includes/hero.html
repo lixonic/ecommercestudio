@@ -1,0 +1,36 @@
+<div class="one-half-grid">
+
+    {% if page.url == '/portfolio.html' %}
+    <h1>291+   <small>Satisfied clients.</small> <br/> 100% <small>Responsive support.</small>  </h1>
+    {%else %}
+    <h1>Reliable Shopify <br/>  development Services.</h1>
+    
+    {% endif%}
+    {% if page.url == '/portfolio.html' or page.url != '/'%}
+
+     <a href="/" class="btn"> &laquo; Back to Home</a>
+     {%else%}
+     <a href="/portfolio.html" class="btn">View Portfolio &raquo;</a>
+
+    {% endif%}
+  </div>
+  <div class="one-half-grid">
+    {% if page.url == '/portfolio.html' %}
+
+    <img src="/images/general/index-banner-3.png"  >
+
+    {%elsif page.url == '/about/' %}
+
+    <img src="/images/general/index-banner-4.png"  >
+
+    {%elsif page.url == '/' %}
+
+    <img src="/images/general/index-banner.png" >
+
+    {%else%}
+
+    <img src="/images/general/index-banner-2.png" >
+
+
+    {%endif%}
+  </div>
