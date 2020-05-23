@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Conditional display of text, based on SKU onVariant Change   "
+title:  "Conditional display of text, based on SKU onVariant Change"
 date:   2020-05-22 08:26:35 +0530
 categories: Debut-theme
+icon: 22
 ---
 
 Here is how you can display a conditional text based on SKU of a product upon changing the variant dropdown. I'm using Debut `v16.5.5` for the sake of simplicity. Later on, i will add fixes for other Shopify supported themes as i get time.

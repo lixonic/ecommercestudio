@@ -29,9 +29,9 @@ layout: default
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
-        {% assign randomNumber = forloop.index | plus: '10'%}
+       
       <li>
-       <img src="/images/icons/Camping Icons-{{randomNumber}}.png" class="post-icon">
+       <img src="/images/icons/Camping Icons-{{post.icon}}.png" class="post-icon">
           <span class="post-meta">{{ post.date | date: date_format }}</span>
           <h3>
             <a class="post-link" href="{{ post.url | relative_url }}">
