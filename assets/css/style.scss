@@ -166,6 +166,15 @@
     }
     
   }
+  body:not(.index){
+    .index-banner{
+      background-color: #e74c3c;
+
+      a{
+        background-color:#90190d ;
+      }
+    }
+  }
   .no-margin-top{
     margin-top: 0;
   }

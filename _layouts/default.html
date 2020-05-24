@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css
   "/>
 
-  <body class="{{page.title | downcase }}">
+  <body class="{%- if page.url == '/'-%} index {%-else-%} {{ page.title | downcase }} {%-endif-%}">
 
     {%- include header.html -%}
 
