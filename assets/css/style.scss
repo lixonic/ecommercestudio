@@ -146,6 +146,15 @@
     text-align: center;
     margin-top: 50px;
   }
+  body:not(.index){
+    .index-banner{
+      background-color: #e74c3c;
+
+      a{
+        background-color:#90190d ;
+      }
+    }
+  }
   body.portfolio{
     .index-banner{
       background-color: #1abc9c;
@@ -166,15 +175,7 @@
     }
     
   }
-  body:not(.index){
-    .index-banner{
-      background-color: #e74c3c;
-
-      a{
-        background-color:#90190d ;
-      }
-    }
-  }
+  
   .no-margin-top{
     margin-top: 0;
   }
