@@ -9,9 +9,9 @@ I found this idea on this [forum post](https://community.shopify.com/c/Shopify-A
 
 Using Debut theme `v16.5.5` and [free metafieds editor](https://apps.shopify.com/metafields-editor-2) app , I figured out a way to do the same.
 
-I have created this two demo products. [1. Abbey Road (Album)](https://nichegeek.myshopify.com/products/abbey-road-album) and [2. Here comes the sun (Song)](https://nichegeek.myshopify.com/products/here-comes-the-sun-song) . So if product `2` is in the cart, the cart should prompt an upgrade option to the user.
+I have created two demo products. [1. Abbey Road (Album)](https://nichegeek.myshopify.com/products/abbey-road-album) and [2. Here comes the sun (Song)](https://nichegeek.myshopify.com/products/here-comes-the-sun-song) . So if product `2` is in the cart, the cart should prompt an upgrade option to the user.
 
-The following metafield   ```{%raw%} {{ product.metafields.parent.bundle }} {%endraw%}``` will connect both products using `product handle` . In this case, i'm creating a metafield for product `2` which will be handle of product `1`, which is `abbey-road-album`
+The following metafield   ```{%raw%} {{ product.metafields.parent.bundle }} {%endraw%}``` will connect both products using `product handle` . In this case, i'm creating a metafield for product `2` which will be handle of product `1`, ie `abbey-road-album`
 
 ### Solution
  Create a snippet **upgrade-to-bundle.liquid**  and render it with `product` and `line_item` as variables
