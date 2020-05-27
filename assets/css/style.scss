@@ -116,6 +116,13 @@
     border-left: 4px solid #8A6116;
 
   }
+  .copyright{
+    background: #6fd5e6;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+  }
   .index-banner{
     background-color: #266590;
     padding: 20px 0;
@@ -144,8 +151,7 @@
     color: #828282;
     font-size: 14px;
     text-align: center;
-    margin-top: 50px;
-  }
+   }
   body:not(.index){
     .index-banner{
       background-color: #09c6a2;
@@ -181,5 +187,5 @@
   }
   .site-footer{
     background: url(../../images/general/footer.png) repeat-x bottom center;
-    min-height: 380px;
+    min-height: 250px;
   }

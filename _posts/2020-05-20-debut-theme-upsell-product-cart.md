@@ -114,7 +114,7 @@ Assuming that the product only has a single variant.
             {% endif %}
         {% endfor %}
     	
-       {% if upsell_product_in_cart == 0 %}
+       {% if upsell_product_in_cart == 0 and upsell_id != nil %}
         <div class="upsell_product">
            <img src="{{ upsell_product.images[0] | img_url: 'small'}}">
           <div class="info"> Would you like to add {{upsell_product.title}} &nbsp;<strong>{{upsell_product.price | money}}</strong></div>
@@ -134,7 +134,7 @@ Assuming that the product only has a single variant.
 
 
 
-### Add javascript for updating the cart
+### Use the Ajax API for updating the cart
 
 On success, it should reload the cart
 
@@ -162,7 +162,6 @@ $(document).on('click','#upSell_addTocart', function(){
 Debut `v16.5.5` has ajax enabled **Remove** link by default. Delete `data-cart-remove` from the anchor tag in order to reload the cart.
 
 
-#### A live demo is available here  [https://nichegeek.myshopify.com/cart](https://nichegeek.myshopify.com/cart) 
 
 ![working demo](/images/posts/debut-theme-upsell.gif)
 
