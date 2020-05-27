@@ -5,7 +5,7 @@ date:   2020-05-26 21:26:35 +0530
 icon: '01'
 ---
 
-I found this idea on this [forum post](https://community.shopify.com/c/Shopify-Apps/Replace-a-product-in-the-cart-with-another/m-p/751439#M23512)
+I found the idea on this [forum post](https://community.shopify.com/c/Shopify-Apps/Replace-a-product-in-the-cart-with-another/m-p/751439#M23512)
 
 Using Debut theme `v16.5.5` and [free metafieds editor](https://apps.shopify.com/metafields-editor-2) app , I figured out a way to do the same.
 
