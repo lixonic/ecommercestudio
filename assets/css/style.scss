@@ -5,70 +5,7 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
-  @media (max-width:1300px){
-    .wrapper{
-      max-width: 80%;
-    }
-  }
-  @media (max-width: 800px){
-    .testimonials{
-      text-align: center;
-      .avatar{
-        margin: auto;
-      }
-    }
-    .index-banner{
-      img{display: none}
-    }
-    .post-link{
-      font-size: .8em;
-    }
-    .post-title{
-      font-size: 1.8em;
-    }
-  }
-  @media (min-width:1300px){
-    .wrapper{
-      max-width: 50%;
-    }
-    
-  }
- @media (min-width: 800px){
-  .one-half-grid{
-    width: 46%;
-    display:inline-table;
-    margin-right: 2%;
-    vertical-align: middle;
-  }
-  .one-third{
-    width: 33%;
-    display:inline-table;
-    margin-right: 2%;
-    vertical-align: middle;
-  }
-  .testimonials{
-    margin: 0 0 70px 0 !important;
-    .grid__item{
-      background-color: #f2f2f2;
-      margin-bottom: 30px;
-    }
-    em{
-      margin-bottom: 20px;
-    }
-    .content{
-      padding-top: 40px;
-      padding-right: 30px;
-    }
-    .avatar{
-      float: left;
-      margin-right: 20px;
-      img{
-        border-radius: 4px;
-      }
-    }
-  }
 
- }
   ul{
     list-style: none;
     margin: 0; padding: 0;
@@ -189,3 +126,71 @@
     background: url(../../images/general/footer.png) repeat-x bottom center;
     min-height: 250px;
   }
+  .post-link{
+    font-size: 1.2em;
+  }
+
+  @media (max-width:1300px){
+    .wrapper{
+      max-width: 80%;
+    }
+  }
+  @media (max-width: 800px){
+    .testimonials{
+      text-align: center;
+      .avatar{
+        margin: auto;
+      }
+    }
+    .index-banner{
+      img{display: none}
+    }
+    .post-link{
+      font-size: .8em;
+    }
+    .post-title{
+      font-size: 1.8em;
+    }
+  }
+  @media (min-width:1300px){
+    .wrapper{
+      max-width: 50%;
+    }
+    
+  }
+ @media (min-width: 800px){
+  .one-half-grid{
+    width: 46%;
+    display:inline-table;
+    margin-right: 2%;
+    vertical-align: middle;
+  }
+  .one-third{
+    width: 33%;
+    display:inline-table;
+    margin-right: 2%;
+    vertical-align: middle;
+  }
+  .testimonials{
+    margin: 0 0 70px 0 !important;
+    .grid__item{
+      background-color: #f2f2f2;
+      margin-bottom: 30px;
+    }
+    em{
+      margin-bottom: 20px;
+    }
+    .content{
+      padding-top: 40px;
+      padding-right: 30px;
+    }
+    .avatar{
+      float: left;
+      margin-right: 20px;
+      img{
+        border-radius: 4px;
+      }
+    }
+  }
+
+ }
