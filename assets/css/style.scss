@@ -44,14 +44,22 @@
     margin: 30px 0;
     text-align: center;
     border-left: 4px solid #108043;
-  }
+   }
   .alert{
     background-color: #FFEA8A;
     padding: 15px;
     margin: 30px 0;
     text-align: center;
     border-left: 4px solid #8A6116;
-
+ 
+  }
+  .alert.sidebar{
+    border-top: 4px solid #8A6116;
+    border-left: 0;
+  }
+  .message.sidebar{
+    border-top: 4px solid #108043;
+    border-left: 0;
   }
   .copyright{
     background: #6fd5e6;
@@ -156,7 +164,16 @@
     .wrapper{
       max-width: 50%;
     }
-    
+    ul.post-list{
+        width: 70%;
+        display: inline-block;
+        float: left;
+    }
+    .sidebar{
+      width: 25%;
+      display: inline-block;
+      margin-top: 0;
+     }
   }
  @media (min-width: 800px){
   .one-half-grid{

@@ -23,9 +23,7 @@ layout: default
       {%else%}
        
     {%- endif -%}
-  <div class="alert no-margin-top">
-    Need a price quote for your shopify tasks/project? Send an email to <a href="mailto:lixon@ecommercestudio.in">lixon@ecommercestudio.in</a>
-  </div>
+
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
@@ -48,6 +46,13 @@ layout: default
       {%- endfor -%}
     </ul>
 
+    <div class="message sidebar">
+      If you find any issues/errors in the content or a better way to do the same, <a href="https://github.com/lixonic/ecommercestudio/issues/new" 
+      target="_blank">please let me know here. </a>
+    </div>
+    <div class="alert sidebar">
+      Need a price quote for your shopify tasks/project? <br/>Send an email to <a href="mailto:lixon@ecommercestudio.in">lixon@ecommercestudio.in</a>
+    </div>
     {% if site.paginate %}
       <div class="pager">
         <ul class="pagination">
