@@ -142,6 +142,9 @@
     .wrapper{
       max-width: 80%;
     }
+    .alert.sidebar,  .message.sidebar{
+      display: none;
+    }
   }
   @media (max-width: 800px){
     .testimonials{
