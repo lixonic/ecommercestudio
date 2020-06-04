@@ -24,16 +24,18 @@
   .text-center{
     text-align: center;
   }
+  .text-right{
+    text-align: right;
+  }
+  .text-left{
+    text-align: left;
+  }
+  
   
   .page-content{
     padding-top: 0;
   }
 
-  .post-icon{
-    float: left;
-    margin-right: 25px;
-    width: 75px;
-  }
   .green{
     color: #108043;
   }
@@ -53,6 +55,7 @@
     border-left: 4px solid #8A6116;
  
   }
+ 
   .alert.sidebar{
     border-top: 4px solid #8A6116;
     border-left: 0;
@@ -126,13 +129,14 @@
     }
     
   }
-  
+ 
   .no-margin-top{
     margin-top: 0;
   }
   .site-footer{
     background: url(../../images/general/footer.png) repeat-x bottom center;
     min-height: 250px;
+    border: 0;
   }
   .post-link{
     font-size: 1.2rem;
@@ -152,13 +156,27 @@
     }
 
   }
+
   @media (max-width:1300px){
-    .wrapper{
+    .wrapper,.post-wrapper{
       max-width: 80%;
+      margin: auto;
     }
+ 
     .alert.sidebar,  .message.sidebar{
       display: none;
     }
+    ul.post-list{
+
+      li.alert{
+       .post-icon{ display: none}
+      }
+      .post-icon{
+        width: 75px;
+        float: left;
+        margin-right: 20px;
+      }
+   }
   }
   @media (max-width: 800px){
     .testimonials{
@@ -181,16 +199,39 @@
     .wrapper{
       max-width: 50%;
     }
-    ul.post-list{
-        width: 70%;
-        display: inline-block;
-        float: left;
+    .post-wrapper{
+      max-width: 70%;
+      margin: auto;
     }
-    .sidebar{
-      width: 25%;
-      display: inline-block;
-      margin-top: 0;
-     }
+    ul.post-list{
+       li{
+         width: 28%;
+         display: inline-block;
+         text-align: center;
+         vertical-align: middle;
+         min-height: 180px;
+         max-height: 180px;
+         border: 1px solid #ddd;
+         margin: .5%;
+         padding: 18px;
+         background-color: #fff;
+
+         p,h3{
+           margin: 10px 0;
+         }
+       }
+  
+       li.alert{
+        background-color: #FFEA8A;
+        border-color:#fff ;
+       }
+      .post-icon{
+        display: block;
+        width: 75px;
+        margin: auto;
+      }
+    }
+ 
   }
  @media (min-width: 800px){
   .one-half-grid{
