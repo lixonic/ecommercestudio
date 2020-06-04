@@ -137,7 +137,21 @@
   .post-link{
     font-size: 1.2rem;
   }
+  .categories{
+    h3{
+      font-size: 1em;
+      margin: 0
+    } 
+    a{
+      font-size: 14px;
+    }
+  }
+  ul.slick-dots{
+    li{
+      margin: 0;
+    }
 
+  }
   @media (max-width:1300px){
     .wrapper{
       max-width: 80%;
