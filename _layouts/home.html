@@ -53,6 +53,19 @@ layout: default
     <div class="alert sidebar">
       Need a price quote for your shopify tasks/project? <br/>Send an email to <a href="mailto:lixon@ecommercestudio.in">lixon@ecommercestudio.in</a>
     </div>
+<!-- 
+    <div class="categories">
+      {% for category in site.categories %}
+        <h3>{{ category[0] }}</h3>
+        <ul>
+          {% for post in category[1] %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    </div> -->
+
+
     {% if site.paginate %}
       <div class="pager">
         <ul class="pagination">

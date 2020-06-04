@@ -2,7 +2,7 @@
 layout: post
 title:  "Simple theme bug fix - product image zoom-in"
 date:   2020-04-17 21:26:35 +0530
-categories: Simple-theme
+categories: Simple 
 icon: 17
 ---
 

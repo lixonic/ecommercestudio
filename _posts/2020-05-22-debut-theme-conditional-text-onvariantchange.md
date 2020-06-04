@@ -2,7 +2,7 @@
 layout: post
 title:  "Conditional display of text, based on SKU onVariant Change"
 date:   2020-05-22 08:26:35 +0530
-categories: Debut-theme
+categories: Debut 
 icon: 22
 ---
 

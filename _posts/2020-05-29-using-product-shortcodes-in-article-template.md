@@ -2,6 +2,7 @@
 layout: post
 title:  "Using product shortcodes inside article template"
 date:   2020-05-29 21:26:35 +0530
+categories: Debut
 icon: '34'
 ---
 
