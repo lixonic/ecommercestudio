@@ -59,7 +59,11 @@ Add  some custom styles for the arrow buttons inside theme.scss.liquid and selec
     left: -5%
 }
 ```
+This solution is taken from - [How to show Product Image Gallery on Product Page (Boundless Template)] [forum-post]
+ 
 
  <img src="https://api.monosnap.com/file/download?id=5fdo7guQQjrwxIP20JzVJe13yHsLE7" alt="">
 <img src="https://api.monosnap.com/file/download?id=wPi93vvuhCqMFJQnKwbqxqdKkZULmb" alt="">
 <iframe width="100%" height="515" src="https://monosnap.com/image/O0gpaGs6UNOZ1IhWJpKxnHWBpqeYDR" frameborder="0" controls allowfullscreen></iframe>
+
+[forum-post]: https://community.shopify.com/c/Technical-Q-A/How-to-show-Product-Image-Gallery-on-Product-Page-Boundless/m-p/762783#M26282
