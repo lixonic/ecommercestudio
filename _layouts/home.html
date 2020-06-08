@@ -38,18 +38,20 @@ layout: default
             </a>
           </h3>
        
-       
+          {% if forloop.index == 5%}
+          <li class="alert">
+             <p>&nbsp;</p><p>&nbsp;</p>
+            <p>I'm available for hiring. Send an email to <a href="mailto:lixon@ecommercestudio.in">lixon@ecommercestudio.in</a>
+    
+              </p>
+          </li>
+          {% endif %}
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
       </li>
       {%- endfor -%}
-      <li class="alert">
-        <img src="/images/icons/Camping Icons-36.png" class="post-icon">
-        <p>I'm available for hiring. Send an email to <a href="mailto:lixon@ecommercestudio.in">lixon@ecommercestudio.in</a>
-
-          </p>
-      </li>
+   
     </ul>
 
     <!-- <div class="message sidebar">
