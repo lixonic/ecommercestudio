@@ -177,6 +177,10 @@
         margin-right: 20px;
       }
    }
+   li.alert p:nth-child(1), li.alert p:nth-child(2) {
+      display: none;
+   }
+   li.alert p{ margin-bottom: 0; text-align: left;}
   }
   @media (max-width: 800px){
     .testimonials{
