@@ -3,7 +3,7 @@ layout: post
 title:  "Display customer specific info inside product template"
 date:   2020-06-08 21:26:35 +0530
 categories: Boundless 
-icon: '08'
+icon: '38'
 ---
 
 Here is a use-case of customer metafields.
