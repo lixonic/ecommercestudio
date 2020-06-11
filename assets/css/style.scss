@@ -177,10 +177,8 @@
         margin-right: 20px;
       }
    }
-   li.alert p:nth-child(1), li.alert p:nth-child(2) {
-      display: none;
-   }
-   li.alert p{ margin-bottom: 0; text-align: left;}
+ 
+   li.alert {border-left: 0; font-size: .8em;}
   }
   @media (max-width: 800px){
     .testimonials{
