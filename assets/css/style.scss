@@ -15,7 +15,7 @@
 header{
     padding: 80px 50px;
     background: #e7e7e7 url('/images/general/header-bg.png') no-repeat top right;
-    background-size: 70%;
+    background-size: 100%;
 }
 small{
     font-Family: 'Alegreya', Serif;
@@ -71,6 +71,9 @@ h1{
 @media(min-width:1024px){
     header h1{
         max-width: 60%;
+    }
+    header{
+      background-size: 70%;
     }
     section{
         display: flex;
