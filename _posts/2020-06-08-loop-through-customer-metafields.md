@@ -6,9 +6,7 @@ categories: Boundless
 icon: '38'
 ---
 
-Here is a use-case of customer metafields.
-
-Some vendors wants to add customer numbers and account managers attached to each customer's information/profile and display additional information on product page based on this specific data.
+Here is a use-case of customer metafields. Some vendors wants to add customer numbers and account managers attached to each customer's information/profile and display additional information on product page based on this specific data.
 
 
 ```liquid {%raw%}

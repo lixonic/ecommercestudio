@@ -2,45 +2,58 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {%- include head.html -%}
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css
-  "/>
+  <link href="https://fonts.googleapis.com/css?family=Alegreya|Questrial" rel="stylesheet">
+
 
   <body class="{%- if page.url == '/'-%} index {%-else-%} {{ page.title | downcase }} {%-endif-%}">
+ 
+    <header>
+      <small> Welcome to, </small>
+      <div class="logo"> ecommerce<span class="green">Studio</span>.in</div>
+   
+       <h1>A web development agency specializing in strategy, design and development within Shopify. 
+   
+       </h1>
+   </header>
+   <main>
+       
+       <section>
+           <div class="content">
+               <div>
+                   <h2>Let’s Get in Touch  </h2>
+                  <p> Hey there, i’m lixon louis. A shopify partner and developer based out of Kochi, Kerala. 
+                   I love working with people to get the best out of their online store,specializing in strategy, design and development within Shopify.
+                  
+                    </p>
+                    <p> I also work with other shopify partners/agencies all over the world; to name a few
+                      <a rel="nofollow" href="https://www.nanogama.lt/" target="_blank"> Nanogama </a>, 
+                      <a rel="nofollow" href="https://www.fivepalmsmedia.com/" target="_blank"> Fivepalmsmedia </a> and
+                      <a rel="nofollow" href=">https://clickgiant.com/" target="_blank">Clickgiant</a>.
+                      You can find more about me on  
+                      <a href="https://community.shopify.com/c/user/viewprofilepage/user-id/539319" target="_blank"> Shopify Community</a>
+                      ,<a href="https://www.linkedin.com/in/lixonlouis/" target="_blank"> Linkedin</a> 
+                       and <a href="https://github.com/lixonic" target="_blank">Github</a>.
 
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      {% if page.url != '/404.html'%}
-      <div class="index-banner">
-        <div class="wrapper">
-
-          {%-include hero.html-%}
-
-        </div>
-      </div>
-      {% endif%}
-      <div class="post-wrapper">
-         {{ content }}
-      </div>
-    </main>
-    {% if page.url == '/portfolio.html'%}
-      {%- include testimonials.html -%}
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
-      <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-      <script type="text/javascript">
-        $(document).ready(function(){
-        $('.testimonials').slick({
-          infinite: true,
-          dots: true,
-          autoplay: true,
-          autoplaySpeed: 5000,
-          slidesToShow: 1,
-          slidesToScroll: 1
-        });
-      });
-      </script>
-    {% endif%}
+                    </p>
+                  <p>
+                    My hourly rate is $25/hr, but also prefer to work on fixed price projects. you can reach me at <u>lixon@ecommercestudio.in</u>
+                  </p>
+                   
+                   
+                  </div>
+           </div>
+               <div class="content">
+                   <div>
+                       <h2> Development Blog</h2>
+                       {{ content }}
+                  </div>
+               </div>
+          
+       </section>
+    
+    
+   </main>
+ 
     {%- include footer.html -%}
 
   </body>

@@ -1,13 +1,10 @@
 ---
 layout: page-layout
 ---
-<div class="message">
-  If you find any issues/errors in the following content or a better way to do the same, <a href="https://github.com/lixonic/ecommercestudio/issues/new" 
-  target="_blank">please let me know here. </a>
-</div>
+ 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
+  <div class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -28,7 +25,7 @@ layout: page-layout
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}</p>
-  </header>
+          </div>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
@@ -40,6 +37,4 @@ layout: page-layout
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
-<div class="alert no-margin-top">
-  Need a price quote for your shopify tasks/project? Send an email to <a href="mailto:lixon@ecommercestudio.in">lixon@ecommercestudio.in</a>
-</div>
+ 

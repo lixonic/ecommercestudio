@@ -2,45 +2,20 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {%- include head.html -%}
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css
-  "/>
+  <link href="https://fonts.googleapis.com/css?family=Alegreya|Questrial" rel="stylesheet">
+
 
   <body class="{%- if page.url == '/'-%} index {%-else-%} {{ page.title | downcase }} {%-endif-%}">
 
     {%- include header.html -%}
 
     <main class="page-content" aria-label="Content">
-      {% if page.url != '/404.html'%}
-      <div class="index-banner">
-        <div class="wrapper">
-
-          {%-include hero.html-%}
-
-        </div>
-      </div>
-      {% endif%}
+       
       <div class="wrapper">
          {{ content }}
       </div>
     </main>
-    {% if page.url == '/portfolio.html'%}
-      {%- include testimonials.html -%}
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
-      <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-      <script type="text/javascript">
-        $(document).ready(function(){
-        $('.testimonials').slick({
-          infinite: true,
-          dots: true,
-          autoplay: true,
-          autoplaySpeed: 5000,
-          slidesToShow: 1,
-          slidesToScroll: 1
-        });
-      });
-      </script>
-    {% endif%}
+ 
     {%- include footer.html -%}
 
   </body>

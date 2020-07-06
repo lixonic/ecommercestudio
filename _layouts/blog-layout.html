@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+  <link href="https://fonts.googleapis.com/css?family=Alegreya|Questrial" rel="stylesheet">
+
+
+  <body class="{%- if page.url == '/'-%} index {%-else-%} {{ page.title | downcase }} {%-endif-%}">
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+       
+      <div class="wrapper">
+        {% assign posts = site.posts %}
+
+    <ul class="post-list blog">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {%- for post in posts -%}
+         
+        <li>
+            <div class="post-meta">{{ post.date | date: date_format }}</div>
+           
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}   
+  
+              
+              </a>
+          
+   
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </li>
+        {%- endfor -%}
+     
+      </ul>
+      </div>
+    </main>
+ 
+    {%- include footer.html -%}
+
+  </body>
+  
+</html>

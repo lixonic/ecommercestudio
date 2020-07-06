@@ -2,8 +2,7 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
+   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
@@ -26,27 +25,19 @@ layout: default
 
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
+      {%- for post in posts limit:2-%}
        
       <li>
-       <img src="/images/icons/Camping Icons-{{post.icon}}.png" class="post-icon">
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
+      
+         
             <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
+              {{ post.title | escape }} -           <span class="post-meta">{{ post.date | date: date_format }}</span>
+
             
             </a>
-          </h3>
+            {{ post.excerpt }}
        
-          {% if forloop.index == 4%}
-          <li class="alert">
-            <img src="/images/icons/Camping Icons-40.png" class="post-icon">
-            <span class="post-meta">{{ 'now' | date: date_format }}</span>
-           <h3>I'm available for hiring. Send an email to <a href="mailto:lixon@ecommercestudio.in">lixon@ecommercestudio.in</a>
-    
-           </h3>
-          </li>
-          {% endif %}
+ 
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
@@ -54,25 +45,9 @@ layout: default
       {%- endfor -%}
    
     </ul>
+    <a href="/blog" class="post-link">View all posts</a>
 
-    <!-- <div class="message sidebar">
-      If you find any issues/errors in the content or a better way to do the same, <a href="https://github.com/lixonic/ecommercestudio/issues/new" 
-      target="_blank">please let me know here. </a>
-    </div>
-    <div class="alert sidebar">
-      Need a price quote for your shopify tasks/project? <br/>Send an email to <a href="mailto:lixon@ecommercestudio.in">lixon@ecommercestudio.in</a>
-    </div> -->
-<!-- 
-    <div class="categories">
-      {% for category in site.categories %}
-        <h3>{{ category[0] }}</h3>
-        <ul>
-          {% for post in category[1] %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
-        </ul>
-      {% endfor %}
-    </div> -->
+ 
 
 
     {% if site.paginate %}
