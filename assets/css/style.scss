@@ -59,8 +59,8 @@ h1{
   padding: 20px;
 }
 .content div{
-    padding:50px;
- }
+  padding:20px;
+}
  body.index .post-link{
    font-size: 1rem;
    font-weight: bold;
@@ -75,6 +75,9 @@ h1{
 @media(min-width:1024px){
     header h1{
         max-width: 60%;
+    }
+    .content div{
+      padding:50px;
     }
     header{
       background-size: 70%;
