@@ -13,7 +13,7 @@
     font-size: 1rem;
 }
 header{
-    padding: 150px 50px;
+    padding: 50px;
     background: #e7e7e7 url('/images/general/header-bg.jpg') no-repeat top right;
     background-size: 100%;
 }
@@ -81,6 +81,7 @@ h1{
     }
     header{
       background-size: 70%;
+      padding: 150px 50px;
     }
     section{
         display: flex;
