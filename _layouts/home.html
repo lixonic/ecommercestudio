@@ -31,7 +31,9 @@ layout: default
       
          
             <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }} -           <span class="post-meta">{{ post.date | date: date_format }}</span>
+              {{ post.title | escape }}    
+              
+              <span class="post-meta">{{ post.date | date: date_format }}</span>
 
             
             </a>

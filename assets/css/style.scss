@@ -61,10 +61,12 @@ h1{
 .content div{
   padding:20px;
 }
- body.index .post-link{
+body.index .post-link{
    font-size: 1.29rem;
-   font-weight: bold;
- }
+}
+body.index .post-meta{
+  display: block;
+}
  body.blog .post-link{
   font-size: 1.29rem;
   font-weight: bold;
