@@ -23,7 +23,7 @@ small{
     font-weight: normal;
 }
 
-.logo,h2{
+.logo{
 
     font-Family: 'Questrial', Sans-Serif;
     font-size: 2rem;
@@ -47,7 +47,7 @@ h2{
 img.featured{
    margin-bottom: 20px;
 }
-h1{
+h1:not(.post-title){
     font-Family: 'Alegreya', Serif;
     font-size: 1.5rem;
     font-weight: normal;
