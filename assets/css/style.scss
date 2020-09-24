@@ -14,12 +14,11 @@
 }
 header{
     padding: 80px 50px;
-    background: #e7e7e7 url('/images/general/header-bg.jpg') no-repeat top right;
+    background: #e7e7e7 url('/images/general/gradient_bg.jpg') no-repeat top center;
     background-size: 100%;
 }
 small{
-    font-Family: 'Alegreya', Serif;
-    font-size: 1.5rem;
+     font-size: 1rem;
     font-weight: normal;
 }
 
@@ -48,7 +47,7 @@ img.featured{
    margin-bottom: 20px;
 }
 h1:not(.post-title){
-    font-Family: 'Alegreya', Serif;
+  
     font-size: 1.5rem;
     font-weight: normal;
 }
@@ -81,8 +80,8 @@ body.index .post-meta{
       padding:50px;
     }
     header{
-      background-size: 70%;
-      padding: 150px 50px;
+      
+      padding: 200px 50px;
     }
     section{
         display: flex;
@@ -94,7 +93,7 @@ body.index .post-meta{
         width: 50%;
     }
     header small{
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
     .logo{
       font-size: 5.5rem;
