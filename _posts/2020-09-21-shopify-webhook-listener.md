@@ -94,27 +94,30 @@ app.use(
   })
 );
 
-app.post("/webhook", (req, res) => {
+app.post("/webhook", async(req, res) => {
  
-  const data = req.rawBody
-  const hmacHeader  = req.get('X-Shopify-Hmac-Sha256')
+  const data = await req.rawBody
+  const hmacHeader  = await req.get('X-Shopify-Hmac-Sha256')
 
-  const hmac = crypto
+  try{
+    const hmac = crypto
     .createHmac('sha256', secretKey)
     .update(data, 'utf8', 'hex')
     .digest('base64');
 
-
-    if (hmacHeader === hmac) {
-      console.log('Phew, it came from Shopify!')
-      res.sendStatus(200)
-      console.log(req.body)
+      if (hmacHeader === hmac) {
+        console.log('Phew, it came from Shopify!')
+        res.sendStatus(200)
+        console.log(req.body)
 
       }else{
-      console.log('Danger! Not from Shopify!')
-      res.sendStatus(403)
-    }
-
+        console.log('Danger! Not from Shopify!')
+        res.sendStatus(403)
+      }
+  }catch(error){
+    console.log(error)
+  }
+   
 })
 
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`))
