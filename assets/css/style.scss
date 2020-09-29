@@ -73,7 +73,7 @@ body.index .post-meta{
  }
 @media(min-width:1024px){
     header h1{
-        max-width: 60%;
+        
     }
     .content div{
       padding:50px;
@@ -82,15 +82,16 @@ body.index .post-meta{
       background-size: 120%;
       background-repeat: repeat;
       padding: 200px 50px;
+      text-align: center;
     }
     section{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
     }
         
     section .content{
-        width: 50%;
+        width: 35%;
     }
     header small{
       font-size: 1.5rem;
