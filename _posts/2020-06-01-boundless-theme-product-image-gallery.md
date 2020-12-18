@@ -2,6 +2,7 @@
 layout: post
 title:  "Product Image Gallery for Boundless theme"
 date:   2020-06-01 21:26:35 +0530
+modified_date:   2020-12-17 01:00:00 +0530 
 categories: Boundless 
 icon: 31
 ---
@@ -60,7 +61,25 @@ Add  some custom styles for the arrow buttons inside theme.scss.liquid and selec
 }
 ```
 This solution is taken from - [How to show Product Image Gallery on Product Page (Boundless Template)] [forum-post]
- 
+
+
+### UPDATE  
+
+The old version of slick slider in Boundless theme gives you [this bug](https://github.com/kenwheeler/slick/issues/1248). This will highlight all 3 thumbnails at once as seen in below video.
+
+And if you try to update to a latest version in `vendor.js`, it will create issues with the homepage slider. 
+
+The fix involves creating a product template specific `vendor-product.js` and conditionally including this in `theme.liquid`
+
+```
+
+  {%raw%} {%unless template contains 'product'%}
+    <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
+  {%else%}
+    <script src="{{ 'vendor-product.js' | asset_url }}" defer="defer"></script>
+  {%endunless%}
+{%endraw%}
+```
 
  <img src="https://api.monosnap.com/file/download?id=5fdo7guQQjrwxIP20JzVJe13yHsLE7" alt="">
 <img src="https://api.monosnap.com/file/download?id=wPi93vvuhCqMFJQnKwbqxqdKkZULmb" alt="">
