@@ -63,7 +63,7 @@ Add  some custom styles for the arrow buttons inside theme.scss.liquid and selec
 This solution is taken from - [How to show Product Image Gallery on Product Page (Boundless Template)] [forum-post]
 
 
-### UPDATE  
+### UPDATE - Dec 16, 2020
 
 The old version of slick slider in Boundless theme gives you [this bug](https://github.com/kenwheeler/slick/issues/1248). This will highlight all 3 thumbnails at once as seen in below video.
 
