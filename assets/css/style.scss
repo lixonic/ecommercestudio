@@ -77,8 +77,9 @@ body.index .post-meta{
    margin-bottom: 10px;
  }
 @media(min-width:1024px){
-    header h1{
-        
+    main{
+       width: 60%;
+       margin: auto; 
     }
     .content div{
       padding:50px;
