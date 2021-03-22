@@ -77,10 +77,7 @@ body.index .post-meta{
    margin-bottom: 10px;
  }
 @media(min-width:1024px){
-    main{
-       width: 60%;
-       margin: auto; 
-    }
+
     .content div{
       padding:50px;
     }
@@ -114,4 +111,9 @@ body.index .post-meta{
     }
 }
  
- 
+@media(min-width:1360px){
+  main{
+    width: 1200px;
+    margin: auto; 
+ }
+}
