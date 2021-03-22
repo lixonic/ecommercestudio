@@ -76,7 +76,7 @@ body.index .post-meta{
  .post-list > li{
    margin-bottom: 10px;
  }
-@media(min-width:800px){
+@media(min-width:1024px){
     header h1{
         
     }
@@ -108,20 +108,9 @@ body.index .post-meta{
     header h1{
       font-size: 2rem;
     }
+    section .content{
+      width: 50%;
+    }
 }
-@media(min-width:1300px){
-  section .content{
-    width: 50%;
-  }
-}
-@media(min-width:1600px){
-  section .content{
-    width: 33%;
-  }
-}
-@media(max-width:1024px){
-  iframe{
-    width: 100%;
-    height:320px;
-  }
-}
+ 
+ 
