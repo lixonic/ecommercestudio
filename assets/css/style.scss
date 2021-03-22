@@ -11,21 +11,25 @@
     padding: 0;
     line-height: 2;
     font-size: 1rem;
+    background-color: #f9fafb;
 }
 header{
     padding: 80px 50px;
-    background: #e7e7e7 url('/images/general/gr_bg.jpg') no-repeat bottom;
+    background:  #fff;
 }
 small{
      font-size: 1rem;
     font-weight: normal;
 }
+.post-title, .post-content h1{
 
+  font-size: 2em;
+}
 .logo{
 
     font-Family: 'Questrial', Sans-Serif;
     font-size: 2rem;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-weight: normal;
     line-height: 1;
     color: #000 !important;
@@ -34,7 +38,7 @@ small{
   font-size: 1.5rem;
 }
 header.site-header{
-  padding: 40px;
+  padding: 10px;
 }
 h2{
   font-size: 2rem;
@@ -44,23 +48,25 @@ h2{
 }
 img.featured{
    margin-bottom: 20px;
+   border-radius: 5px;
 }
 h1:not(.post-title){
   
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: normal;
 }
 .text-center{
     text-align: center;
 }
 .copyright{
-  padding: 20px;
+  padding: 20px 0;
+  font-size: 14px;
 }
 .content div{
   padding:20px;
 }
 body.index .post-link{
-   font-size: 1.29rem;
+   font-size: 1.1rem;
 }
 body.index .post-meta{
   display: block;
@@ -79,9 +85,8 @@ body.index .post-meta{
       padding:50px;
     }
     header{
-      background-size: 120%;
-      background-repeat: repeat;
-      padding: 200px 50px;
+ 
+      padding: 150px 50px 50px;
      
     }
     body.index header{
@@ -91,6 +96,7 @@ body.index .post-meta{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        padding-top: 35px;
     }
         
 
@@ -101,7 +107,7 @@ body.index .post-meta{
       font-size: 5.5rem;
     } 
     header h1{
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
 }
 @media(min-width:1300px){
