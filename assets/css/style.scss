@@ -70,12 +70,13 @@ body.index .post-link{
 body.index .post-meta{
   display: block;
 }
- body.blog .post-link{
+body.blog .post-link{
   font-size: 1.29rem;
-  }
- .post-list > li{
-   margin-bottom: 10px;
- }
+}
+.post-list > li{
+  margin-bottom: 10px;
+}
+
 @media(min-width:1024px){
 
     .content div{
@@ -110,7 +111,11 @@ body.index .post-meta{
       width: 50%;
     }
 }
- 
+@media(max-width:1024px){
+  body{
+    text-align: center;
+  }
+} 
 @media(min-width:1360px){
   main{
     width: 1200px;
