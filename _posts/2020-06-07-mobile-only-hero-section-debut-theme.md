@@ -97,9 +97,6 @@ Duplicate the entire div and place it under the current div element and give it 
 
 Save it and go to customize theme and check the changes. 
 
-<iframe width="100%" height="360" src="https://monosnap.com/image/cETfuBbLyx6Wuz7Xtf4x6wXm3YQtTw" frameborder="0" controls allowfullscreen></iframe>
-
-
 This solution is taken from - [optimise the customized image for mobile] [forum-post]
  
 [forum-post]: https://community.shopify.com/c/Shopify-Design/optimise-the-customized-image-for-mobile/m-p/766919/highlight/true#M192068
