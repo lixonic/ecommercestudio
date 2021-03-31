@@ -33,6 +33,7 @@ small{
     line-height: 1;
     color: #000 !important;
 }
+
 .logo.small{
   font-size: 1.5rem;
 }
@@ -80,12 +81,15 @@ body.blog .post-link{
 .post-list > li{
   margin-bottom: 10px;
 }
-
+.portfolio iframe{
+  width: 100%;
+}
 @media(min-width:1024px){
 
     .content div{
       padding:50px;
     }
+ 
     header{
  
       padding:  50px;
@@ -118,6 +122,11 @@ body.blog .post-link{
 @media(max-width:1024px){
   body.index{
     text-align: center;
+  }
+  .portfolio{
+    iframe{
+      height: 60vw;
+    }
   }
 } 
 @media(min-width:1360px){
