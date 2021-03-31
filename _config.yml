@@ -1,9 +1,9 @@
-title: eCommerceStudio
+title: ecommerceStudio
 author:
   name: Lixon Louis
   email: lixon@ecommercestudio.in
 description: > # this means to ignore newlines until "show_excerpts:"
-  A web development team specializing in design, development and strategy within Shopify.
+  A web development team specializing in design, development within Shopify.
   
 show_excerpts: false # set to true to show excerpts on the homepage
 

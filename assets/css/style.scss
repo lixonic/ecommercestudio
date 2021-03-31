@@ -29,12 +29,16 @@ small{
     font-Family: 'Questrial', Sans-Serif;
     font-size: 2rem;
     margin-bottom: 20px;
-    font-weight: normal;
+     
     line-height: 1;
     color: #000 !important;
 }
 .logo.small{
   font-size: 1.5rem;
+}
+.logo+h1{
+  font-weight: bold;
+  font-style: italic;
 }
 header.site-header{
   padding: 10px;

@@ -45,7 +45,7 @@ And below is the code for **upgrade-to-bundle.liquid** , where it checks the pro
 {%endraw%}
 ```
 
-And using AJAX API update the cart with javascript as in [Creating an Upsell feature without using an app](https://ecommercestudio.in/debut-theme/2020/05/20/debut-theme-upsell-product-cart.html)
+And using AJAX API update the cart with javascript as in [Creating an Upsell feature without using an app](https://ecommercestudio.in/debut/2020/05/20/debut-theme-upsell-product-cart.html)
 
  ``` javascript
 
