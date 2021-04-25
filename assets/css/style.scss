@@ -24,6 +24,8 @@ header{
   height: 328px;
   border-radius: 4px;
   margin-bottom: 10px;
+  background-size: cover;
+  background-position-x: right;
 }
 // .profile-pic:hover{
 //   background: url('../../images/lixon-2.jpg') no-repeat;
@@ -128,9 +130,7 @@ body.blog .post-link{
     }
 }
 @media(max-width:1024px){
-  body.index{
-    text-align: center;
-  }
+  
   .portfolio{
     iframe{
       height: 60vw;
