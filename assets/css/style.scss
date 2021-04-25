@@ -18,6 +18,16 @@ header{
     background:  #fff;
     background-size: contain;
 }
+.profile-pic{
+  background: url('../../images/lixon.jpg') no-repeat;
+  width: 100%;
+  height: 328px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+// .profile-pic:hover{
+//   background: url('../../images/lixon-2.jpg') no-repeat;
+// }
 small{
      font-size: 1rem;
     font-weight: normal;
@@ -38,10 +48,7 @@ small{
 .logo.small{
   font-size: 1.5rem;
 }
-.logo+h1{
-  font-weight: bold;
-  font-style: italic;
-}
+ 
 header.site-header{
   padding: 10px;
 }
@@ -57,7 +64,7 @@ img.featured{
 }
 h1:not(.post-title){
   
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: normal;
 }
 .text-center{
@@ -67,7 +74,7 @@ h1:not(.post-title){
   padding: 20px 0;
   font-size: 14px;
 }
-.content div{
+.content div.cell{
   padding:20px;
 }
 body.index .post-link{
@@ -87,7 +94,7 @@ body.blog .post-link{
 }
 @media(min-width:1024px){
 
-    .content div{
+    .content div.cell{
       padding:50px;
     }
  
