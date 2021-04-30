@@ -11,7 +11,7 @@
     padding: 0;
     line-height: 2;
     font-size: 1rem;
-    background-color: #f9fafb;
+    background-color: #1a5fe9;
 }
 header{
     padding: 30px;
@@ -36,6 +36,17 @@ small{
 }
 .post-title, .post-content h1{
   font-size: 2em;
+}
+main{
+  h2,h3,.content,.post-title,.post-meta,.post-link,.post-content{
+    color: #f8f8f8;
+  }
+}
+ code {
+  color: #000  !important
+}
+a:not(.page-link,.logo){
+  color: #eee  !important
 }
 .logo{
 
@@ -75,6 +86,7 @@ h1:not(.post-title){
 .copyright{
   padding: 20px 0;
   font-size: 14px;
+  color: #fff;
 }
 .content div.cell{
   padding:20px;
