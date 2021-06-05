@@ -1,5 +1,4 @@
-﻿# eCommercestudio
-
+﻿# Shopify Resources
  + [Using product shortcodes inside article template](https://ecommercestudio.in/2020/05/29/using-product-shortcodes-in-article-template.html)
  
 + [Upgrade to Product Bundle feature on cart page](https://ecommercestudio.in/2020/05/26/upgrade-to-bundle-feature.html)
