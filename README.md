@@ -7,16 +7,16 @@
  + [Mobile specific hero section image on Debut theme](https://github.com/lixonic/Shopify/wiki/Mobile-specific-hero-section-image-on-Debut-theme)
  + [Product Image Gallery for Boundless theme](https://github.com/lixonic/Shopify/wiki/Product-Image-Gallery-for-Boundless-theme)
  
- + [Using product shortcodes inside article template](https://ecommercestudio.in/2020/05/29/using-product-shortcodes-in-article-template.html)
+ + [Using product shortcodes inside article template](https://github.com/lixonic/Shopify/wiki/Using-product-shortcodes-inside-article-template)
  
-+ [Upgrade to Product Bundle feature on cart page](https://ecommercestudio.in/2020/05/26/upgrade-to-bundle-feature.html)
++ [Upgrade to Product Bundle feature on cart page](https://github.com/lixonic/Shopify/wiki/Upgrade-to-Product-Bundle-feature-on-cart-page)
  
-+ [Delivery Date calculator using product metafields](https://ecommercestudio.in/2020/05/24/delivery-date-calculator.html)
++ [Delivery Date calculator using product metafields](https://github.com/lixonic/Shopify/wiki/Delivery-Date-calculator-using-product-metafieldsl)
  
-+ [Conditional display of text, based on SKU onVariant Change](https://ecommercestudio.in/debut-theme/2020/05/22/debut-theme-conditional-text-onvariantchange.html)
++ [Conditional display of text, based on SKU onVariant Change](https://github.com/lixonic/Shopify/wiki/Conditional-display-of-text,-based-on-SKU-onVariant-Change)
  
-+ [Creating an Upsell feature without using an app](https://ecommercestudio.in/debut-theme/2020/05/20/debut-theme-upsell-product-cart.html)
++ [Creating an Upsell feature without using an app](https://github.com/lixonic/Shopify/wiki/Creating-an-Upsell-feature-without-using-an-app)
  
-+ [Brooklyn theme - Show full product info on Homepage Section](https://ecommercestudio.in/brooklyn-theme/2020/05/13/brooklyn-theme-featured-product.html)
++ [Brooklyn theme - Show full product info on Homepage Section](https://github.com/lixonic/Shopify/wiki/Brooklyn-theme---Show-full-product-info-on-Homepage-Section)
  
-+ [Simple theme bug fix - product image zoom-in](https://ecommercestudio.in/simple-theme/2020/04/17/simple-theme-bug.html)
++ [Simple theme bug fix - product image zoom-in](https://github.com/lixonic/Shopify/wiki/Simple-theme-bug-fix---product-image-zoom-in)
